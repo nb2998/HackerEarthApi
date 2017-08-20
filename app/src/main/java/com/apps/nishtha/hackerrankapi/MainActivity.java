@@ -14,30 +14,30 @@ import com.hackerrank.api.hackerrank.model.Submission;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textOutput,textSample;
+    TextView textOutput;
     EditText editSourceCode;
     Button btnRun,btnTrySample;
     Submission response;
     StringBuilder output;
 
     public static final String TAG="TAG";
-    StringBuilder baseUrl=new StringBuilder();
-    String apiKey="73e9886c06c02caaaf3e61439fdb9d114874aae8";
-    String sourceCode="import java.io.*;\n" +
-            "import java.util.*;\n" +
-            "import java.text.*;\n" +
-            "import java.math.*;\n" +
-            "import java.util.regex.*;\n" +
-            "\n" +
-            "public class Solution {\n" +
-            "\n" +
-            "    public static void main(String[] args) {\n" +
-            "        Scanner in = new Scanner(System.in);\n" +
-            "        int n = in.nextInt();\n" +
-            "        \n" +
-            "        System.out.println(n);\n" +
-            "    }\n" +
-            "}\n";
+//    StringBuilder baseUrl=new StringBuilder();
+//    String apiKey="73e9886c06c02caaaf3e61439fdb9d114874aae8";
+//    String sourceCode="import java.io.*;\n" +
+//            "import java.util.*;\n" +
+//            "import java.text.*;\n" +
+//            "import java.math.*;\n" +
+//            "import java.util.regex.*;\n" +
+//            "\n" +
+//            "public class Solution {\n" +
+//            "\n" +
+//            "    public static void main(String[] args) {\n" +
+//            "        Scanner in = new Scanner(System.in);\n" +
+//            "        int n = in.nextInt();\n" +
+//            "        \n" +
+//            "        System.out.println(n);\n" +
+//            "    }\n" +
+//            "}\n";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
